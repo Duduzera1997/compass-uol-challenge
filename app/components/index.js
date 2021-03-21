@@ -1,4 +1,5 @@
 import TabIcon from './TabIcon';
 import Loading from './Loading';
+import HeaderLabel from './HeaderLabel';
 
-export { Loading, TabIcon };
+export { TabIcon, Loading, HeaderLabel };

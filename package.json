@@ -77,7 +77,7 @@
   "lint-staged": {
     "app/**/*": [
       "yarn lint --fix",
-      "yarn test --findRelatdTests --bail"
+      "yarn test --findRelatedTests --bail"
     ]
   }
 }
