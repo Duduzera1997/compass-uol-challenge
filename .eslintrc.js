@@ -1,4 +1,5 @@
 module.exports = {
+  parser: 'babel-eslint',
   env: {
     es6: true,
     jest: true,
@@ -24,10 +25,12 @@ module.exports = {
   plugins: ['react', 'react-native', 'jsx-a11y', 'import', 'react-hooks'],
   rules: {
     'prettier/prettier': 'error',
-    'react/jsx-filename-extension': ['error', {extensions: ['.js', '.jsx']}],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/no-unresolved': [2, { ignore: ['.png$', '.webp$', '.jpg$'] }],
     'import/prefer-default-export': 'off',
-    'no-unused-vars': ['error', {argsIgnorePattern: '^_'}],
     'no-underscore-dangle': 'off',
+    'react/prop-types': ['error'],
     'react/jsx-one-expression-per-line': 'off',
     'react-native/no-color-literals': 'off',
     'global-require': 'off',
