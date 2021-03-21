@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Technology Screen should be contains a Technology text 1`] = `
+<View>
+  <Text>
+    Technology
+  </Text>
+</View>
+`;
