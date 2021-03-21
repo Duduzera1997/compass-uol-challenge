@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabIcon Component should be render a TabIcon with focused prop 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+    ]
+  }
+  testID="component-tabIcon-container"
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#FF5A5F",
+          "fontSize": 20,
+        },
+        Array [
+          Object {
+            "fontSize": 20,
+          },
+        ],
+        Object {
+          "fontFamily": "Feather",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    testID="component-tabIcon-icon"
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`TabIcon Component should be render a TabIcon without props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+    ]
+  }
+  testID="component-tabIcon-container"
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#767676",
+          "fontSize": 20,
+        },
+        Array [
+          Object {
+            "fontSize": 20,
+          },
+        ],
+        Object {
+          "fontFamily": "Feather",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    testID="component-tabIcon-icon"
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`TabIcon Component should be render container in center 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+    ]
+  }
+  testID="component-tabIcon-container"
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#767676",
+          "fontSize": 20,
+        },
+        Array [
+          Object {
+            "fontSize": 20,
+          },
+        ],
+        Object {
+          "fontFamily": "Feather",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    testID="component-tabIcon-icon"
+  >
+    
+  </Text>
+</View>
+`;
