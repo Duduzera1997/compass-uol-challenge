@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component should be render a Card with delivered props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "height": 120,
+        "paddingBottom": 10,
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "height": "100%",
+        "opacity": 1,
+        "width": "92%",
+      }
+    }
+  >
+    <View
+      flex={1}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "flex-start",
+            "paddingBottom": 2,
+            "paddingLeft": 7,
+            "paddingRight": 5,
+            "paddingTop": 5,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mapa_do_Brasil_com_a_Bandeira_Nacional.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "borderRadius": 10,
+              "height": "95%",
+              "width": "100%",
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      flex={2.5}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexGrow": 2.5,
+            "flexShrink": 1,
+            "justifyContent": "flex-start",
+            "paddingBottom": 2,
+            "paddingLeft": 7,
+            "paddingRight": 5,
+            "paddingTop": 5,
+          },
+        ]
+      }
+    >
+      <Text
+        fontBold={true}
+        size={15}
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "PTSansNarrowBold",
+              "fontSize": 15,
+              "paddingBottom": 2,
+              "paddingLeft": 4,
+              "paddingRight": 2,
+              "paddingTop": 4,
+              "width": "99%",
+            },
+          ]
+        }
+      >
+        Brazil wins covid-19 and peoples return to their normal lives
+      </Text>
+      <Text
+        fontBold={true}
+        size={11.5}
+        style={
+          Array [
+            Object {
+              "color": "#767676",
+              "fontFamily": "PTSansNarrowBold",
+              "fontSize": 11.5,
+              "paddingBottom": 2,
+              "paddingLeft": 4,
+              "paddingRight": 2,
+              "paddingTop": 0,
+              "width": "99%",
+            },
+          ]
+        }
+      >
+        15 de julho de 2022
+      </Text>
+      <Text
+        numberOfLines={2}
+        size={13}
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "PTSansNarrowRegular",
+              "fontSize": 13,
+              "paddingBottom": 2,
+              "paddingLeft": 4,
+              "paddingRight": 2,
+              "paddingTop": 4,
+              "width": "99%",
+            },
+          ]
+        }
+      >
+        Brazil finally managed to win Covid-19, it was the 12th country to win the virus
+      </Text>
+    </View>
+  </View>
+</View>
+`;
