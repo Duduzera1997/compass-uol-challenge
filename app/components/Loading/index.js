@@ -2,6 +2,7 @@ import React from 'react';
 import { ActivityIndicator } from 'react-native';
 import { ContainerLoading, Logo } from './styles';
 import { compassoLogoWhite as compassoLogo } from '~/assets';
+import { white } from '~/styles/colors';
 
 function Loading() {
   return (
@@ -9,7 +10,7 @@ function Loading() {
       <Logo source={compassoLogo} testID="component-loading-logo" />
       <ActivityIndicator
         size="small"
-        color="white"
+        color={white}
         testID="component-loading-item"
       />
     </ContainerLoading>

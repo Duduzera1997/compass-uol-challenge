@@ -6,7 +6,6 @@ exports[`Loading Component should be contains a loading item 1`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "#333333",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -33,7 +32,7 @@ exports[`Loading Component should be contains a loading item 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#FFFFFF"
     hidesWhenStopped={true}
     size="small"
     testID="component-loading-item"
@@ -47,7 +46,6 @@ exports[`Loading Component should be contains a logo 1`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "#333333",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -74,7 +72,7 @@ exports[`Loading Component should be contains a logo 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#FFFFFF"
     hidesWhenStopped={true}
     size="small"
     testID="component-loading-item"
