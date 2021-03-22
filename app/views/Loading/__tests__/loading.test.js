@@ -1,10 +1,10 @@
 import React from 'react';
-import { render } from '@testing-library/react-native';
+import { renderWithTheme } from '~/utils/helperTest';
 import { LoadingScreen } from '~/views';
 
 describe('Loading Screen', () => {
   it('should be render screen', () => {
-    const { getByTestId, toJSON } = render(<LoadingScreen />);
+    const { getByTestId, toJSON } = renderWithTheme(<LoadingScreen />);
     const logo = getByTestId('component-loading-logo');
     expect(logo).toBeTruthy();
     expect(toJSON()).toMatchSnapshot();
