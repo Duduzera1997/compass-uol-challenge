@@ -1,4 +1,14 @@
-import { red, purple, green, darkGrey, grey, white } from './colors';
+import {
+  red,
+  darkRed,
+  purple,
+  green,
+  darkPurple,
+  darkGrey,
+  grey,
+  white,
+  whiteLight,
+} from './colors';
 
 export default {
   colors: {
@@ -6,15 +16,20 @@ export default {
       red,
       purple,
       green,
+      darkPurple,
+      darkRed,
     },
     secondary: {
       darkGrey,
       grey,
       white,
+      whiteLight,
     },
   },
 
-  font: {
-    family: 'Roboto-Regular',
+  fonts: {
+    primary: {
+      family: 'PTSansNarrow',
+    },
   },
 };

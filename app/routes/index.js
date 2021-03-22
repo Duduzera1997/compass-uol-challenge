@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 
 import { appRoutes } from './routes';
-import { darkGrey, white, grey } from '~/styles/colors';
+import { white, darkRed, whiteLight } from '~/styles/colors';
 import { TabIcon } from '~/components';
 import { LoadingScreen } from '~/views';
 
@@ -37,8 +37,9 @@ function Routes() {
         <Tabs.Navigator
           barStyle={styles.tabStyle}
           backBehavior="history"
-          activeColor={darkGrey}
-          inactiveColor={grey}>
+          keyboardHidesNavigationBar={true}
+          activeColor={white}
+          inactiveColor={whiteLight}>
           {appRoutes.map((route) => (
             <Tabs.Screen
               key={route.name}
@@ -62,7 +63,7 @@ function Routes() {
 
 const styles = StyleSheet.create({
   tabStyle: {
-    backgroundColor: white,
+    backgroundColor: darkRed,
   },
 });
 
