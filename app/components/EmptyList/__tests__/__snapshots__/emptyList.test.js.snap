@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyList Component should be contains a Empty List Text into component 1`] = `
+<View>
+  <Text>
+    Empty List
+  </Text>
+</View>
+`;
