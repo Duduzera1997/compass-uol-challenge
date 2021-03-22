@@ -1,7 +1,11 @@
 import React from 'react';
-import { Loading } from '~/components';
+import { LinearBackground, Loading } from '~/components';
 
 function LoadingScreen() {
-  return <Loading />;
+  return (
+    <LinearBackground>
+      <Loading />
+    </LinearBackground>
+  );
 }
 export default LoadingScreen;
