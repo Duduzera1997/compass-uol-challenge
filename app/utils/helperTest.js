@@ -6,11 +6,16 @@ import configureStore from 'redux-mock-store';
 
 import theme from '~/styles/theme';
 
-export const renderWithTheme = (childrens) =>
-  render(<ThemeProvider theme={theme}>{childrens}</ThemeProvider>);
+export const renderWithTheme = (component) =>
+  render(<ThemeProvider theme={theme}>{component}</ThemeProvider>);
 
-export const renderWithStoreProvider = (childrens) => {
+export const renderWithStoreAndThemeProviders = (component, { techMock }) => {
   const mockStore = configureStore();
-  const store = mockStore();
-  return render(<Provider store={store}>{childrens}</Provider>);
+  const state = {
+    techReducer: {
+      ...techMock,
+    },
+  };
+  const store = mockStore(state);
+  return renderWithTheme(<Provider store={store}>{component}</Provider>);
 };
