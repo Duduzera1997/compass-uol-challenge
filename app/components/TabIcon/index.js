@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import * as SC from './styles';
-import { red, grey } from '~/styles/colors';
+import { white, whiteLight } from '~/styles/colors';
 
 function TabIcon({ icon, focused }) {
   return (
@@ -9,7 +9,7 @@ function TabIcon({ icon, focused }) {
       <SC.IconTab
         name={icon}
         size={20}
-        color={focused ? red : grey}
+        color={focused ? white : whiteLight}
         testID="component-tabIcon-icon"
       />
     </SC.ContainerIcon>
