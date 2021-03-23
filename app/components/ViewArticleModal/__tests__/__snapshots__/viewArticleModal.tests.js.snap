@@ -1,0 +1,953 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View Article Component should be contain a text containing the time of publication of the news up to the current time 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+  visible={true}
+>
+  <BVLinearGradient
+    colors={
+      Array [
+        4282066552,
+        4294924895,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 0,
+        "y": 1.05,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://static01.nyt.com/images/2021/03/22/science/00VIRUS-HOMEBOUND-promo/00VIRUS-HOMEBOUND-promo-articleInline.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": "30%",
+              "opacity": 0.6,
+              "width": "100%",
+            },
+          ]
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "paddingBottom": 0,
+            "paddingLeft": 5,
+            "paddingRight": 0,
+            "paddingTop": 30,
+            "position": "absolute",
+          }
+        }
+        testID="component-view-article-back-handler"
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 50,
+              },
+              Array [
+                Object {},
+              ],
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 20,
+              "bottom": 50,
+              "height": "100%",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FF5A5F",
+                "fontFamily": "PTSansNarrowBold",
+                "fontSize": 22,
+              },
+            ]
+          }
+        >
+          How to Vaccinate Homebound Seniors? Take the Shots to Them.
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#767676",
+                "fontFamily": "PTSansNarrowBold",
+                "fontSize": 13,
+                "marginTop": 5,
+              },
+            ]
+          }
+        >
+          22 de março de 2021
+           
+          | 
+          1 dia
+           atrás
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#3b2678",
+                "fontFamily": "PTSansNarrowRegular",
+                "fontSize": 17,
+                "marginTop": "3%",
+                "textAlign": "justify",
+              },
+            ]
+          }
+        >
+          Millions of older Americans, chronically ill and trapped at home, pose a big challenge to inoculation efforts. Doctors are on it.
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginTop": "10%",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF5A5F",
+                "borderRadius": 8,
+                "height": 50,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": "70%",
+              }
+            }
+            testID="component-button-press"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "PTSansNarrowBold",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Visualizar Notícia Completa
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </BVLinearGradient>
+</Modal>
+`;
+
+exports[`View Article Component should be contains a abstract send by prop 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+  visible={true}
+>
+  <BVLinearGradient
+    colors={
+      Array [
+        4282066552,
+        4294924895,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 0,
+        "y": 1.05,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://static01.nyt.com/images/2021/03/22/science/00VIRUS-HOMEBOUND-promo/00VIRUS-HOMEBOUND-promo-articleInline.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": "30%",
+              "opacity": 0.6,
+              "width": "100%",
+            },
+          ]
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "paddingBottom": 0,
+            "paddingLeft": 5,
+            "paddingRight": 0,
+            "paddingTop": 30,
+            "position": "absolute",
+          }
+        }
+        testID="component-view-article-back-handler"
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 50,
+              },
+              Array [
+                Object {},
+              ],
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 20,
+              "bottom": 50,
+              "height": "100%",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FF5A5F",
+                "fontFamily": "PTSansNarrowBold",
+                "fontSize": 22,
+              },
+            ]
+          }
+        >
+          How to Vaccinate Homebound Seniors? Take the Shots to Them.
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#767676",
+                "fontFamily": "PTSansNarrowBold",
+                "fontSize": 13,
+                "marginTop": 5,
+              },
+            ]
+          }
+        >
+          22 de março de 2021
+           
+          | 
+          1 dia
+           atrás
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#3b2678",
+                "fontFamily": "PTSansNarrowRegular",
+                "fontSize": 17,
+                "marginTop": "3%",
+                "textAlign": "justify",
+              },
+            ]
+          }
+        >
+          Millions of older Americans, chronically ill and trapped at home, pose a big challenge to inoculation efforts. Doctors are on it.
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginTop": "10%",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF5A5F",
+                "borderRadius": 8,
+                "height": 50,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": "70%",
+              }
+            }
+            testID="component-button-press"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "PTSansNarrowBold",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Visualizar Notícia Completa
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </BVLinearGradient>
+</Modal>
+`;
+
+exports[`View Article Component should be contains a title send by prop 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+  visible={true}
+>
+  <BVLinearGradient
+    colors={
+      Array [
+        4282066552,
+        4294924895,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 0,
+        "y": 1.05,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://static01.nyt.com/images/2021/03/22/science/00VIRUS-HOMEBOUND-promo/00VIRUS-HOMEBOUND-promo-articleInline.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": "30%",
+              "opacity": 0.6,
+              "width": "100%",
+            },
+          ]
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "paddingBottom": 0,
+            "paddingLeft": 5,
+            "paddingRight": 0,
+            "paddingTop": 30,
+            "position": "absolute",
+          }
+        }
+        testID="component-view-article-back-handler"
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 50,
+              },
+              Array [
+                Object {},
+              ],
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 20,
+              "bottom": 50,
+              "height": "100%",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FF5A5F",
+                "fontFamily": "PTSansNarrowBold",
+                "fontSize": 22,
+              },
+            ]
+          }
+        >
+          How to Vaccinate Homebound Seniors? Take the Shots to Them.
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#767676",
+                "fontFamily": "PTSansNarrowBold",
+                "fontSize": 13,
+                "marginTop": 5,
+              },
+            ]
+          }
+        >
+          22 de março de 2021
+           
+          | 
+          1 dia
+           atrás
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#3b2678",
+                "fontFamily": "PTSansNarrowRegular",
+                "fontSize": 17,
+                "marginTop": "3%",
+                "textAlign": "justify",
+              },
+            ]
+          }
+        >
+          Millions of older Americans, chronically ill and trapped at home, pose a big challenge to inoculation efforts. Doctors are on it.
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginTop": "10%",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF5A5F",
+                "borderRadius": 8,
+                "height": 50,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": "70%",
+              }
+            }
+            testID="component-button-press"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "PTSansNarrowBold",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Visualizar Notícia Completa
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </BVLinearGradient>
+</Modal>
+`;
+
+exports[`View Article Component should be prop onRequestClose send has been called 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={false}
+  onRequestClose={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+  visible={true}
+>
+  <BVLinearGradient
+    colors={
+      Array [
+        4282066552,
+        4294924895,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 0,
+        "y": 1.05,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": "100%",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://static01.nyt.com/images/2021/03/22/science/00VIRUS-HOMEBOUND-promo/00VIRUS-HOMEBOUND-promo-articleInline.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": "30%",
+              "opacity": 0.6,
+              "width": "100%",
+            },
+          ]
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "paddingBottom": 0,
+            "paddingLeft": 5,
+            "paddingRight": 0,
+            "paddingTop": 30,
+            "position": "absolute",
+          }
+        }
+        testID="component-view-article-back-handler"
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 50,
+              },
+              Array [
+                Object {},
+              ],
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 20,
+              "bottom": 50,
+              "height": "100%",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FF5A5F",
+                "fontFamily": "PTSansNarrowBold",
+                "fontSize": 22,
+              },
+            ]
+          }
+        >
+          How to Vaccinate Homebound Seniors? Take the Shots to Them.
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#767676",
+                "fontFamily": "PTSansNarrowBold",
+                "fontSize": 13,
+                "marginTop": 5,
+              },
+            ]
+          }
+        >
+          22 de março de 2021
+           
+          | 
+          1 dia
+           atrás
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#3b2678",
+                "fontFamily": "PTSansNarrowRegular",
+                "fontSize": 17,
+                "marginTop": "3%",
+                "textAlign": "justify",
+              },
+            ]
+          }
+        >
+          Millions of older Americans, chronically ill and trapped at home, pose a big challenge to inoculation efforts. Doctors are on it.
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "marginTop": "10%",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF5A5F",
+                "borderRadius": 8,
+                "height": 50,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": "70%",
+              }
+            }
+            testID="component-button-press"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "PTSansNarrowBold",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Visualizar Notícia Completa
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </BVLinearGradient>
+</Modal>
+`;
