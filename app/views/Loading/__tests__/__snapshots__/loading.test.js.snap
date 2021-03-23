@@ -4,7 +4,7 @@ exports[`Loading Screen should be render screen 1`] = `
 <BVLinearGradient
   colors={
     Array [
-      4280687683,
+      4282066552,
       4294924895,
     ]
   }
@@ -65,6 +65,11 @@ exports[`Loading Screen should be render screen 1`] = `
       color="#FFFFFF"
       hidesWhenStopped={true}
       size="small"
+      style={
+        Array [
+          Object {},
+        ]
+      }
       testID="component-loading-item"
     />
   </View>
