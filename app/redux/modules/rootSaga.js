@@ -1,8 +1,7 @@
-import { all, takeLatest } from 'redux-saga/effects';
-import { techTypes, techSagas } from './tech';
+import { all } from 'redux-saga/effects';
+import { techSagas } from './tech';
+import { scienceSagas } from './science';
 
 export default function* root() {
-  return yield all([
-    takeLatest(techTypes.FETCH_TECH, techSagas.fetchTechnologies),
-  ]);
+  return yield all([techSagas, scienceSagas]);
 }

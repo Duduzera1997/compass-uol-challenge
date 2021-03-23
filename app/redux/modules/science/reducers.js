@@ -1,4 +1,4 @@
-import * as techTypes from './types';
+import * as scienceTypes from './types';
 
 const INITIAL_STATE = {
   data: {
@@ -10,19 +10,20 @@ const INITIAL_STATE = {
   error: false,
 };
 
-export default function techReducer(state = INITIAL_STATE, action) {
+export default function scienceReducer(state = INITIAL_STATE, action) {
   const { type, payload } = action;
+
   switch (type) {
-    case techTypes.FETCH_TECH:
+    case scienceTypes.FETCH_SCIENCE:
       return { ...state, loading: true };
-    case techTypes.FETCH_TECH_SUCCESS:
+    case scienceTypes.FETCH_SCIENCE_SUCCESS:
       return {
         ...state,
         data: payload,
         loading: false,
         error: false,
       };
-    case techTypes.FETCH_TECH_FAIL:
+    case scienceTypes.FETCH_SCIENCE_FAIL:
       return {
         ...state,
         error: true,

@@ -1,4 +1,22 @@
 import rootReducer from './modules/rootReducer';
 
-export * from './modules/tech';
-export { rootReducer };
+import { techActions, techTypes, techReducer, techSagas } from './modules/tech';
+
+import {
+  scienceActions,
+  scienceTypes,
+  scienceReducer,
+  scienceSagas,
+} from './modules/science';
+
+export {
+  rootReducer,
+  techActions,
+  techTypes,
+  techReducer,
+  techSagas,
+  scienceActions,
+  scienceTypes,
+  scienceReducer,
+  scienceSagas,
+};

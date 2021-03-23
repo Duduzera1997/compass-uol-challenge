@@ -1,24 +1,24 @@
 import { all, call, put, takeLatest } from 'redux-saga/effects';
 import _ from 'lodash';
-import { fetchTechnologiesFail, fetchTechnologiesSuccess } from './actions';
-import * as techTypes from './types';
+import * as scienceTypes from './types';
+import { fetchSciencesFail, fetchSciencesSuccess } from './actions';
 import nyt from '~/api/nyt';
 
-export function* fetchTechnologies() {
+export function* fetchSciences() {
   try {
     const {
       data: { results, last_updated, num_results },
-    } = yield call(nyt.get, '/technology');
+    } = yield call(nyt.get, '/science');
     yield put(
-      fetchTechnologiesSuccess({
+      fetchSciencesSuccess({
         last_updated,
         num_results,
         results: _.orderBy(results, 'published_date', 'desc'),
       }),
     );
   } catch (error) {
-    yield put(fetchTechnologiesFail());
+    yield put(fetchSciencesFail());
   }
 }
 
-export default all([takeLatest(techTypes.FETCH_TECH, fetchTechnologies)]);
+export default all([takeLatest(scienceTypes.FETCH_SCIENCE, fetchSciences)]);

@@ -8,14 +8,16 @@ import rootReducer from './modules/rootReducer';
 import rootSaga from './modules/rootSaga';
 
 const persistConfig = {
-  key: 'root',
-  version: 1,
+  key: 'compasso',
   storage: AsyncStorage,
 };
 
 const reactotron = __DEV__ && console.tron.createEnhancer();
+const sagaMonitor = __DEV__ && console.tron.createSagaMonitor();
 const persistedReducer = persistReducer(persistConfig, rootReducer);
-const sagaMiddleware = createSagaMiddleware();
+const sagaMiddleware = createSagaMiddleware({
+  sagaMonitor,
+});
 
 const composeEnhancers = __DEV__
   ? compose(applyMiddleware(sagaMiddleware), reactotron)
