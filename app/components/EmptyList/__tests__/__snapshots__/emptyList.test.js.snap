@@ -1,9 +1,77 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`EmptyList Component should be contains a Empty List Text into component 1`] = `
-<View>
-  <Text>
-    Empty List
+exports[`EmptyList Component should be contains a  Nada foi encontrado Text into component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+        "marginTop": "50%",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "PTSansNarrowRegular",
+          "fontSize": 22,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Ooops! 😞
+ Nada foi encontrado, tente novamente...
+  </Text>
+</View>
+`;
+
+exports[`EmptyList Component should be contains a Buscando Text into component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+        "marginTop": "50%",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#FFFFFF"
+    hidesWhenStopped={true}
+    size="small"
+    style={
+      Array [
+        Object {},
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "PTSansNarrowRegular",
+          "fontSize": 22,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Buscando...
   </Text>
 </View>
 `;

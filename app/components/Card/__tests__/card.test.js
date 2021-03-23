@@ -20,6 +20,7 @@ describe('Card Component', () => {
         title={title}
         abstract={abstract}
         noticeDate={noticeDate}
+        onCardPress={jest.fn()}
       />,
     );
     const formatedDate = format(

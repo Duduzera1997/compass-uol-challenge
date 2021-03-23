@@ -14,7 +14,7 @@ exports[`Card Component should be render a Card with delivered props 1`] = `
 >
   <View
     accessible={true}
-    focusable={false}
+    focusable={true}
     onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
@@ -25,11 +25,10 @@ exports[`Card Component should be render a Card with delivered props 1`] = `
     style={
       Object {
         "backgroundColor": "#FFFFFF",
-        "borderRadius": 8,
+        "borderRadius": 9,
         "flexDirection": "row",
         "height": "100%",
         "opacity": 1,
-        "width": "92%",
       }
     }
   >
@@ -88,6 +87,7 @@ exports[`Card Component should be render a Card with delivered props 1`] = `
     >
       <Text
         fontBold={true}
+        numberOfLines={2}
         size={15}
         style={
           Array [

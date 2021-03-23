@@ -1,13 +1,20 @@
 import React from 'react';
 
-import { render } from '@testing-library/react-native';
 import { EmptyList } from '~/components';
+import { renderWithTheme } from '~/utils/helperTest';
 
 describe('EmptyList Component', () => {
-  it('should be contains a Empty List Text into component', () => {
-    const { getByText, toJSON } = render(<EmptyList />);
+  it('should be contains a Buscando Text into component', () => {
+    const { getByText, toJSON } = renderWithTheme(<EmptyList isLoading />);
 
-    expect(getByText(/Empty List/)).toBeTruthy();
+    expect(getByText(/Buscando/)).toBeTruthy();
+    expect(toJSON()).toMatchSnapshot();
+  });
+
+  it('should be contains a  Nada foi encontrado Text into component', () => {
+    const { getByText, toJSON } = renderWithTheme(<EmptyList />);
+
+    expect(getByText(/Nada foi encontrado/)).toBeTruthy();
     expect(toJSON()).toMatchSnapshot();
   });
 });

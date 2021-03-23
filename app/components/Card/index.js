@@ -4,15 +4,15 @@ import { format } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import * as SC from './styles';
 
-function Card({ imageUrl, title, abstract, noticeDate }) {
+function Card({ imageUrl, title, abstract, noticeDate, onCardPress }) {
   return (
     <SC.ContainerCard>
-      <SC.CardTouchable>
+      <SC.CardTouchable onPress={onCardPress}>
         <SC.CardContent flex={1}>
           <SC.PreviewImage source={{ uri: imageUrl }} />
         </SC.CardContent>
         <SC.CardContent flex={2.5}>
-          <SC.Text size={15} fontBold>
+          <SC.Text size={15} fontBold numberOfLines={2}>
             {title}
           </SC.Text>
           <SC.TextDate size={11.5} fontBold>
@@ -34,6 +34,7 @@ Card.propTypes = {
   title: PropTypes.string.isRequired,
   abstract: PropTypes.string.isRequired,
   noticeDate: PropTypes.string.isRequired,
+  onCardPress: PropTypes.func.isRequired,
 };
 
 export default Card;

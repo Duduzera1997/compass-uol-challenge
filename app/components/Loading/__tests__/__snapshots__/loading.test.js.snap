@@ -35,6 +35,11 @@ exports[`Loading Component should be contains a loading item 1`] = `
     color="#FFFFFF"
     hidesWhenStopped={true}
     size="small"
+    style={
+      Array [
+        Object {},
+      ]
+    }
     testID="component-loading-item"
   />
 </View>
@@ -75,6 +80,11 @@ exports[`Loading Component should be contains a logo 1`] = `
     color="#FFFFFF"
     hidesWhenStopped={true}
     size="small"
+    style={
+      Array [
+        Object {},
+      ]
+    }
     testID="component-loading-item"
   />
 </View>

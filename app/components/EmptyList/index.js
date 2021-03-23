@@ -1,12 +1,26 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import PropTypes from 'prop-types';
+import * as SC from './styles';
 
-function EmptyList() {
+function EmptyList({ isLoading }) {
   return (
-    <View>
-      <Text>Empty List</Text>
-    </View>
+    <SC.ContainerEmptyList>
+      {isLoading && <SC.ActivityIndicator />}
+      <SC.Label>
+        {isLoading
+          ? 'Buscando...'
+          : 'Ooops! 😞\n Nada foi encontrado, tente novamente...'}
+      </SC.Label>
+    </SC.ContainerEmptyList>
   );
 }
+
+EmptyList.defaultProps = {
+  isLoading: false,
+};
+
+EmptyList.propTypes = {
+  isLoading: PropTypes.bool,
+};
 
 export default EmptyList;

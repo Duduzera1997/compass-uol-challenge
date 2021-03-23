@@ -8,9 +8,8 @@ export const ContainerCard = styled.View`
 
 export const CardTouchable = styled.TouchableOpacity`
   background-color: ${({ theme }) => theme.colors.secondary.white};
-  width: 92%;
   height: 100%;
-  border-radius: 8px;
+  border-radius: 9px;
   flex-direction: row;
 `;
 
@@ -37,6 +36,6 @@ export const Text = styled.Text`
 `;
 
 export const TextDate = styled(Text)`
-  padding: 0px 2px 2px 4px;
+  padding: 0 2px 2px 4px;
   color: ${({ theme }) => theme.colors.secondary.grey};
 `;
