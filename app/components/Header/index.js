@@ -5,22 +5,24 @@ import ptBR from 'date-fns/locale/pt-BR';
 
 import * as SC from './styles';
 
-function HeaderLabel({ headerText, dateText }) {
+function Header({ headerText, dateText, onFilterText }) {
   return (
-    <SC.ContainerHeaderLabel>
+    <SC.ContainerHeader>
       <SC.HeaderTitle>{headerText} News</SC.HeaderTitle>
-      <SC.DateLabel>{dateText}</SC.DateLabel>
-    </SC.ContainerHeaderLabel>
+      <SC.DateLabel>Hoje é, {dateText}.</SC.DateLabel>
+      <SC.FilterInput onChangeText={onFilterText} />
+    </SC.ContainerHeader>
   );
 }
 
-HeaderLabel.defaultProps = {
+Header.defaultProps = {
   dateText: format(new Date(), "dd 'de' MMMM 'de' yyyy", { locale: ptBR }),
 };
 
-HeaderLabel.propTypes = {
+Header.propTypes = {
   headerText: PropTypes.string.isRequired,
   dateText: PropTypes.string,
+  onFilterText: PropTypes.func.isRequired,
 };
 
-export default HeaderLabel;
+export default Header;
