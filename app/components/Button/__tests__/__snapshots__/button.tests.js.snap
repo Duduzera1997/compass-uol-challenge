@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Test should be function send by prop has been called with press event 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "marginTop": "10%",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FF5A5F",
+        "borderRadius": 8,
+        "height": 50,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": "70%",
+      }
+    }
+    testID="component-button-press"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "PTSansNarrowBold",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Visualizar Notícia Completa
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Button Test should be have text label "Visualizar Notícia Completa" 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "marginTop": "10%",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FF5A5F",
+        "borderRadius": 8,
+        "height": 50,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": "70%",
+      }
+    }
+    testID="component-button-press"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "PTSansNarrowBold",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Visualizar Notícia Completa
+    </Text>
+  </View>
+</View>
+`;
