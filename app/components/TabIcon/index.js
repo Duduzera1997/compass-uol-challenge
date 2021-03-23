@@ -8,7 +8,6 @@ function TabIcon({ icon, focused }) {
     <SC.ContainerIcon testID="component-tabIcon-container">
       <SC.IconTab
         name={icon}
-        size={20}
         color={focused ? white : whiteLight}
         testID="component-tabIcon-icon"
       />
