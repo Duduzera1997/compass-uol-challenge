@@ -37,7 +37,7 @@ function Routes() {
         <Tabs.Navigator
           barStyle={styles.tabStyle}
           backBehavior="history"
-          keyboardHidesNavigationBar={true}
+          keyboardHidesNavigationBar={false}
           activeColor={white}
           inactiveColor={whiteLight}>
           {appRoutes.map((route) => (

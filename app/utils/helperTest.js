@@ -9,13 +9,21 @@ import theme from '~/styles/theme';
 export const renderWithTheme = (component) =>
   render(<ThemeProvider theme={theme}>{component}</ThemeProvider>);
 
-export const renderWithStoreAndThemeProviders = (component, { techMock }) => {
+export const renderWithStoreAndThemeProviders = (
+  component,
+  { techMock, scienceMock },
+) => {
   const mockStore = configureStore();
   const state = {
     techReducer: {
       ...techMock,
     },
+    scienceReducer: {
+      ...scienceMock,
+    },
   };
   const store = mockStore(state);
   return renderWithTheme(<Provider store={store}>{component}</Provider>);
 };
+
+export * from '@testing-library/react-native';
