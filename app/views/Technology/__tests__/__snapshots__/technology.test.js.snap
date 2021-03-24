@@ -1,9 +1,403 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Technology Screen should be contains a Technology text 1`] = `
-<View>
-  <Text>
-    Technology
-  </Text>
-</View>
+exports[`Technology Screen should be contains a Technology text Label 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4282066552,
+      4294924895,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0,
+      "y": 1.05,
+    }
+  }
+  locations={null}
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    <View
+      flex={1}
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+        ]
+      }
+    >
+      <View
+        flex={1}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "PTSansNarrowBold",
+                  "fontSize": 27,
+                  "letterSpacing": 2,
+                  "paddingLeft": 15,
+                  "paddingTop": 15,
+                },
+              ]
+            }
+          >
+            Technology
+             News
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "PTSansNarrowRegular",
+                  "fontSize": 14,
+                  "paddingLeft": 16,
+                  "paddingTop": 2,
+                },
+              ]
+            }
+          >
+            Hoje é, 
+            23 de março de 2021
+            .
+          </Text>
+        </View>
+      </View>
+      <View
+        flex={1}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Busque uma notícia..."
+          rejectResponderTermination={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#FFFFFF",
+                "borderRadius": 9,
+                "borderWidth": 1,
+                "color": "#333333",
+                "fontFamily": "PTSansNarrowRegular",
+                "fontSize": 16,
+                "marginBottom": 0,
+                "marginLeft": 16,
+                "marginRight": 0,
+                "marginTop": 10,
+                "paddingBottom": 10,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+                "width": "92%",
+              },
+            ]
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        flex={6}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 6,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <RCTScrollView
+          ListEmptyComponent={
+            <EmptyList
+              isLoading={false}
+            />
+          }
+          contentContainerStyle={
+            Object {
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+            }
+          }
+          data={
+            Array [
+              Object {
+                "abstract": "As Facebook has become more active at moderating political speech, it has had trouble dealing with satire.",
+                "byline": "By Mike Isaac",
+                "item_type": "Article",
+                "multimedia": Array [
+                  Object {
+                    "url": "https://static01.nyt.com/images/2021/03/20/business/00fbtoons-print/merlin_182866944_2f787cc6-c290-42ca-a319-ccbf0ae81fc2-articleInline.jpg",
+                  },
+                ],
+                "published_date": "2021-03-22T17:08:27-04:00",
+                "title": "For Political Cartoonists, the Irony Was That Facebook Didn’t Recognize Irony",
+                "uri": "nyt://article/bc3e4015-4646-590d-86f6-f02038990bf0",
+                "url": "https://www.nytimes.com/2021/03/19/technology/political-cartoonists-facebook-satire-irony.html",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          keyboardShouldPersistTaps="never"
+          maxToRenderPerBatch={10}
+          onContentSizeChange={[Function]}
+          onEndReached={[Function]}
+          onEndReachedThreshold={0.1}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          refreshControl={
+            <RefreshControlMock
+              enabled={true}
+              onRefresh={[Function]}
+              refreshing={false}
+            />
+          }
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          showsVerticalScrollIndicator={false}
+          stickyHeaderIndices={Array []}
+          style={
+            Array [
+              Object {
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+            ]
+          }
+          updateCellsBatchingPeriod={50}
+          windowSize={21}
+        >
+          <RCTRefreshControl />
+          <View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 120,
+                      "paddingBottom": 10,
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 9,
+                      "flexDirection": "row",
+                      "height": "100%",
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    flex={1}
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "justifyContent": "flex-start",
+                          "paddingBottom": 2,
+                          "paddingLeft": 7,
+                          "paddingRight": 5,
+                          "paddingTop": 5,
+                        },
+                      ]
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "uri": "https://static01.nyt.com/images/2021/03/20/business/00fbtoons-print/merlin_182866944_2f787cc6-c290-42ca-a319-ccbf0ae81fc2-articleInline.jpg",
+                        }
+                      }
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 10,
+                            "height": "95%",
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    flex={2.5}
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexBasis": 0,
+                          "flexGrow": 2.5,
+                          "flexShrink": 1,
+                          "justifyContent": "flex-start",
+                          "paddingBottom": 2,
+                          "paddingLeft": 7,
+                          "paddingRight": 5,
+                          "paddingTop": 5,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      fontBold={true}
+                      numberOfLines={2}
+                      size={15}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#333333",
+                            "fontFamily": "PTSansNarrowBold",
+                            "fontSize": 15,
+                            "paddingBottom": 2,
+                            "paddingLeft": 4,
+                            "paddingRight": 2,
+                            "paddingTop": 4,
+                            "width": "99%",
+                          },
+                        ]
+                      }
+                    >
+                      For Political Cartoonists, the Irony Was That Facebook Didn’t Recognize Irony
+                    </Text>
+                    <Text
+                      fontBold={true}
+                      size={11.5}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "PTSansNarrowBold",
+                            "fontSize": 11.5,
+                            "paddingBottom": 2,
+                            "paddingLeft": 4,
+                            "paddingRight": 2,
+                            "paddingTop": 0,
+                            "width": "99%",
+                          },
+                        ]
+                      }
+                    >
+                      22 de março de 2021
+                    </Text>
+                    <Text
+                      numberOfLines={2}
+                      size={13}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#333333",
+                            "fontFamily": "PTSansNarrowRegular",
+                            "fontSize": 13,
+                            "paddingBottom": 2,
+                            "paddingLeft": 4,
+                            "paddingRight": 2,
+                            "paddingTop": 4,
+                            "width": "99%",
+                          },
+                        ]
+                      }
+                    >
+                      As Facebook has become more active at moderating political speech, it has had trouble dealing with satire.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </View>
+</BVLinearGradient>
 `;
