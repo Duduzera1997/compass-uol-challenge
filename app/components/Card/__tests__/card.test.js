@@ -1,8 +1,5 @@
 import React from 'react';
-import { format } from 'date-fns';
-import ptBR from 'date-fns/locale/pt-BR';
-
-import { renderWithTheme } from '~/utils/helperTest';
+import { renderWithTheme, formatDateLiteral } from '~/utils';
 import { Card } from '~/components';
 
 describe('Card Component', () => {
@@ -23,13 +20,7 @@ describe('Card Component', () => {
         onCardPress={jest.fn()}
       />,
     );
-    const formatedDate = format(
-      new Date(noticeDate),
-      "dd 'de' MMMM 'de' yyyy",
-      {
-        locale: ptBR,
-      },
-    );
+    const formatedDate = formatDateLiteral(new Date(noticeDate));
     expect(getByText(/Brazil wins covid-19/)).toBeTruthy();
     expect(getByText(/12th country to win the virus/)).toBeTruthy();
     expect(getByText(formatedDate)).toBeTruthy();

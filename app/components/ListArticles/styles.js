@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 
-export const VirtualList = styled.VirtualizedList.attrs({
+export const FlatList = styled.FlatList.attrs({
   initialNumToRender: 10,
   showsVerticalScrollIndicator: false,
   contentContainerStyle: {

@@ -1,9 +1,8 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-import { format } from 'date-fns';
-import ptBR from 'date-fns/locale/pt-BR';
+import React from 'react';
 
 import * as SC from './styles';
+import { formatDateLiteral } from '~/utils';
 
 function Header({ headerText, dateText }) {
   return (
@@ -15,7 +14,7 @@ function Header({ headerText, dateText }) {
 }
 
 Header.defaultProps = {
-  dateText: format(new Date(), "dd 'de' MMMM 'de' yyyy", { locale: ptBR }),
+  dateText: formatDateLiteral(new Date()),
 };
 
 Header.propTypes = {

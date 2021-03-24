@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { RefreshControl } from 'react-native';
 import PropTypes from 'prop-types';
-import _ from 'lodash';
 
 import * as SC from './styles';
-import ArticlesDataPropTypes from './defaultPropTypes';
 import Card from '../Card';
 import EmptyList from '../EmptyList';
-import { PAGE_LIMIT } from '~/utils/constants';
+import { ArrayOfArticlePropTypes, PAGE_LIMIT } from '~/utils';
 
 function ListArticles({ data, loading, onRefresh, onCardPress }) {
   const [articles, setArticles] = useState({ items: [], currentPage: 1 });
+  const paginationHelper =
+    Math.ceil(data.num_results / PAGE_LIMIT) <= articles.currentPage;
 
   useEffect(() => {
     if (articles.items.length !== data.results.length) {
@@ -23,31 +22,24 @@ function ListArticles({ data, loading, onRefresh, onCardPress }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
-  function getOffSet(page) {
+  function getOffset(page) {
     return (page - 1) * PAGE_LIMIT;
   }
 
   function getFakePagination() {
     const { currentPage, items } = articles;
-    if (Math.ceil(data.num_results / PAGE_LIMIT) <= currentPage) return;
+    if (paginationHelper) return;
     const nextPage = currentPage + 1;
-    const offset = getOffSet(nextPage);
+    const offset = getOffset(nextPage);
     setArticles({
       items: [...items, ...data.results.slice(offset, PAGE_LIMIT + offset)],
       currentPage: nextPage,
     });
   }
 
-  function getItem(list, index) {
-    return list[index];
-  }
-
-  function getItemCount(list) {
-    return list.length;
-  }
-
   function renderItem({ item }) {
     const { multimedia, title, abstract, published_date } = item;
+    // Propriedade Multimedia veio null na API por alguns minutos :O
     return (
       multimedia && (
         <Card
@@ -61,30 +53,35 @@ function ListArticles({ data, loading, onRefresh, onCardPress }) {
     );
   }
 
+  function verifyEmptyList() {
+    if (data.num_results > 0 || loading) return;
+    return <EmptyList />;
+  }
+
+  function verifyFooterList() {
+    if (paginationHelper) return;
+    return <EmptyList isLoading />;
+  }
+
   return (
-    <SC.VirtualList
+    <SC.FlatList
+      testID="component-flatlist"
       data={articles.items}
-      refreshControl={
-        <RefreshControl
-          enabled={!loading && !!data.num_results}
-          refreshing={loading}
-          onRefresh={onRefresh}
-        />
-      }
+      initialNumToRender={5}
+      refreshing={loading}
+      onRefresh={onRefresh}
       renderItem={renderItem}
       keyExtractor={(item) => item.url}
-      getItemCount={getItemCount}
-      getItem={getItem}
-      onEndReachedThreshold={0.1}
-      keyboardShouldPersistTaps="never"
+      onEndReachedThreshold={0.15}
       onEndReached={getFakePagination}
-      ListEmptyComponent={<EmptyList isLoading={loading} />}
+      ListEmptyComponent={verifyEmptyList()}
+      ListFooterComponent={verifyFooterList()}
     />
   );
 }
 
 ListArticles.propTypes = {
-  data: ArticlesDataPropTypes.isRequired,
+  data: ArrayOfArticlePropTypes.isRequired,
   loading: PropTypes.bool.isRequired,
   onRefresh: PropTypes.func.isRequired,
   onCardPress: PropTypes.func.isRequired,

@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '..';
-import { renderWithTheme, fireEvent } from '~/utils/helperTest';
+import { renderWithTheme, fireEvent } from '~/utils';
 
 describe('Button Test', () => {
   it('should be have text label "Visualizar Notícia Completa"', () => {

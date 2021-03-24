@@ -1,5 +1,5 @@
 import { all, call, put, takeLatest } from 'redux-saga/effects';
-import _ from 'lodash';
+import { orderBy } from 'lodash';
 import * as scienceTypes from './types';
 import { fetchSciencesFail, fetchSciencesSuccess } from './actions';
 import nyt from '~/api/nyt';
@@ -13,7 +13,7 @@ export function* fetchSciences() {
       fetchSciencesSuccess({
         last_updated,
         num_results,
-        results: _.orderBy(results, 'published_date', 'desc'),
+        results: orderBy(results, 'published_date', 'desc'),
       }),
     );
   } catch (error) {

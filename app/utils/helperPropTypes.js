@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 
-export default PropTypes.shape({
+export const ArrayOfArticlePropTypes = PropTypes.shape({
   last_updated: PropTypes.string,
   num_results: PropTypes.number,
   results: PropTypes.arrayOf(PropTypes.shape(ArticlePropTypes)).isRequired,
 });
 
-const ArticlePropTypes = PropTypes.shape({
+export const ArticlePropTypes = PropTypes.shape({
   section: PropTypes.string,
   subsection: PropTypes.string,
   title: PropTypes.string,
@@ -28,7 +28,7 @@ const ArticlePropTypes = PropTypes.shape({
   short_url: PropTypes.string,
 });
 
-const MultimidiaPropTypes = PropTypes.shape({
+export const MultimidiaPropTypes = PropTypes.shape({
   url: PropTypes.string,
   format: PropTypes.string,
   height: PropTypes.integer,

@@ -3,7 +3,7 @@ import React from 'react';
 import { format, formatDistanceToNow } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import { ViewArticleModal } from '~/components';
-import { renderWithTheme, fireEvent } from '~/utils/helperTest';
+import { renderWithTheme, fireEvent } from '~/utils';
 
 const mock = {
   title: 'How to Vaccinate Homebound Seniors? Take the Shots to Them.',
@@ -79,15 +79,4 @@ describe('View Article Component', () => {
     expect(onRequestClose).toBeCalledTimes(1);
     expect(toJSON()).toMatchSnapshot();
   });
-
-  // it('should be Button has been called', () => {
-  //   const onRequestClose = jest.fn();
-  //   const { getByTestId, toJSON } = renderWithTheme(
-  //     <ViewArticleModal item={mock} visible={true} onRequestClose={jest.fn()} />,
-  //   );
-  //   const button = getByTestId('component-view-article-button-press');
-  //   fireEvent.press(button);
-  //   expect(button.).toBeCalledTimes(1);
-  //   expect(toJSON()).toMatchSnapshot();
-  // });
 });

@@ -1,5 +1,5 @@
 import { all, call, put, takeLatest } from 'redux-saga/effects';
-import _ from 'lodash';
+import { orderBy } from 'lodash';
 import { fetchTechnologiesFail, fetchTechnologiesSuccess } from './actions';
 import * as techTypes from './types';
 import nyt from '~/api/nyt';
@@ -13,7 +13,7 @@ export function* fetchTechnologies() {
       fetchTechnologiesSuccess({
         last_updated,
         num_results,
-        results: _.orderBy(results, 'published_date', 'desc'),
+        results: orderBy(results, 'published_date', 'desc'),
       }),
     );
   } catch (error) {

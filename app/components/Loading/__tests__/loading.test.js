@@ -1,5 +1,5 @@
 import React from 'react';
-import { renderWithTheme } from '~/utils/helperTest';
+import { renderWithTheme } from '~/utils';
 import { Loading } from '~/components';
 
 describe('Loading Component', () => {

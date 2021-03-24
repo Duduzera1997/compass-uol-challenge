@@ -157,11 +157,7 @@ exports[`View Article Component should be contain a text containing the time of 
             ]
           }
         >
-          22 de março de 2021
-           
-          | 
-          1 dia
-           atrás
+          22 de março de 2021 | 1 dia atrás
         </Text>
         <Text
           style={
@@ -392,11 +388,7 @@ exports[`View Article Component should be contains a abstract send by prop 1`] =
             ]
           }
         >
-          22 de março de 2021
-           
-          | 
-          1 dia
-           atrás
+          22 de março de 2021 | 1 dia atrás
         </Text>
         <Text
           style={
@@ -627,11 +619,7 @@ exports[`View Article Component should be contains a title send by prop 1`] = `
             ]
           }
         >
-          22 de março de 2021
-           
-          | 
-          1 dia
-           atrás
+          22 de março de 2021 | 1 dia atrás
         </Text>
         <Text
           style={
@@ -874,11 +862,7 @@ exports[`View Article Component should be prop onRequestClose send has been call
             ]
           }
         >
-          22 de março de 2021
-           
-          | 
-          1 dia
-           atrás
+          22 de março de 2021 | 1 dia atrás
         </Text>
         <Text
           style={

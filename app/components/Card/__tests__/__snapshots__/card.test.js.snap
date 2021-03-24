@@ -108,6 +108,7 @@ exports[`Card Component should be render a Card with delivered props 1`] = `
       </Text>
       <Text
         fontBold={true}
+        numberOfLines={2}
         size={11.5}
         style={
           Array [

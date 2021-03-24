@@ -1,8 +1,8 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-import { format } from 'date-fns';
-import ptBR from 'date-fns/locale/pt-BR';
+import React from 'react';
+
 import * as SC from './styles';
+import { formatDateLiteral } from '~/utils';
 
 function Card({ imageUrl, title, abstract, noticeDate, onCardPress }) {
   return (
@@ -12,17 +12,13 @@ function Card({ imageUrl, title, abstract, noticeDate, onCardPress }) {
           <SC.PreviewImage source={{ uri: imageUrl }} />
         </SC.CardContent>
         <SC.CardContent flex={2.5}>
-          <SC.Text size={15} fontBold numberOfLines={2}>
+          <SC.Text size={15} fontBold>
             {title}
           </SC.Text>
           <SC.TextDate size={11.5} fontBold>
-            {format(new Date(noticeDate), "dd 'de' MMMM 'de' yyyy", {
-              locale: ptBR,
-            })}
+            {formatDateLiteral(noticeDate)}
           </SC.TextDate>
-          <SC.Text numberOfLines={2} size={13}>
-            {abstract}
-          </SC.Text>
+          <SC.Text size={13}>{abstract}</SC.Text>
         </SC.CardContent>
       </SC.CardTouchable>
     </SC.ContainerCard>

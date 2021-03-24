@@ -26,7 +26,9 @@ export const PreviewImage = styled.Image`
   border-radius: 10px;
 `;
 
-export const Text = styled.Text`
+export const Text = styled.Text.attrs({
+  numberOfLines: 2,
+})`
   width: 99%;
   font-size: ${({ size }) => size}px;
   font-family: ${({ theme, fontBold }) =>
