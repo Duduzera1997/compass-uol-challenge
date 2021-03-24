@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Input Component should be contains a "Busque uma notícia" Text 1`] = `
+<TextInput
+  allowFontScaling={true}
+  placeholder="Busque uma notícia..."
+  rejectResponderTermination={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#FFFFFF",
+        "borderRadius": 9,
+        "borderWidth": 1,
+        "color": "#333333",
+        "fontFamily": "PTSansNarrowRegular",
+        "fontSize": 16,
+        "marginBottom": 0,
+        "marginLeft": 16,
+        "marginRight": 0,
+        "marginTop": 10,
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 10,
+        "width": "92%",
+      },
+    ]
+  }
+  underlineColorAndroid="transparent"
+/>
+`;
