@@ -64,19 +64,33 @@ $ yarn android
 # 💻 Tecnologias utilizadas
 
 [React Native](https://reactnative.dev/)
+
 [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
+
 [React Navigation](https://reactnavigation.org/)
+
 [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
 [Redux](https://redux.js.org/)
+
 [Redux Saga](https://redux-saga.js.org/)
+
 [Redux Persist](https://github.com/rt2zz/redux-persist)
+
 [Styled Components](https://styled-components.com/)
+
 [Axios](https://github.com/axios/axios)
+
 [Reactotron](https://github.com/infinitered/reactotron)
+
 [Eslint](https://eslint.org/)
+
 [Prettier](https://prettier.io/)
+
 [Husky](https://github.com/typicode/husky)
+
 [Testing Library](https://callstack.github.io/react-native-testing-library/)
+
 [Jest](https://jestjs.io/pt-BR/)
 
 
