@@ -43,6 +43,21 @@ exports[`Science Screen should be contains a Science text Label 1`] = `
       ]
     }
   >
+    <Modal
+      animationType="fade"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+        ]
+      }
+      visible={false}
+    />
     <View
       flex={1}
       style={
@@ -110,7 +125,7 @@ exports[`Science Screen should be contains a Science text Label 1`] = `
             }
           >
             Hoje é, 
-            23 de março de 2021
+            24 de março de 2021
             .
           </Text>
         </View>
@@ -170,11 +185,6 @@ exports[`Science Screen should be contains a Science text Label 1`] = `
         }
       >
         <RCTScrollView
-          ListEmptyComponent={
-            <EmptyList
-              isLoading={false}
-            />
-          }
           contentContainerStyle={
             Object {
               "paddingBottom": 20,
@@ -206,23 +216,24 @@ exports[`Science Screen should be contains a Science text Label 1`] = `
           horizontal={false}
           initialNumToRender={10}
           keyExtractor={[Function]}
-          keyboardShouldPersistTaps="never"
           maxToRenderPerBatch={10}
           onContentSizeChange={[Function]}
           onEndReached={[Function]}
-          onEndReachedThreshold={0.1}
+          onEndReachedThreshold={0.15}
           onLayout={[Function]}
           onMomentumScrollEnd={[Function]}
+          onRefresh={[Function]}
           onScroll={[Function]}
           onScrollBeginDrag={[Function]}
           onScrollEndDrag={[Function]}
           refreshControl={
             <RefreshControlMock
-              enabled={true}
               onRefresh={[Function]}
               refreshing={false}
             />
           }
+          refreshing={false}
+          removeClippedSubviews={false}
           renderItem={[Function]}
           scrollEventThrottle={50}
           showsVerticalScrollIndicator={false}
@@ -236,7 +247,9 @@ exports[`Science Screen should be contains a Science text Label 1`] = `
               },
             ]
           }
+          testID="component-flatlist"
           updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
           windowSize={21}
         >
           <RCTRefreshControl />
@@ -352,6 +365,7 @@ exports[`Science Screen should be contains a Science text Label 1`] = `
                     </Text>
                     <Text
                       fontBold={true}
+                      numberOfLines={2}
                       size={11.5}
                       style={
                         Array [

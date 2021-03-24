@@ -1,5 +1,5 @@
 import React from 'react';
-import { renderWithStoreAndThemeProviders } from '~/utils/helperTest';
+import { renderWithStoreAndThemeProviders } from '~/utils';
 
 import { TechnologyScreen } from '~/views';
 
@@ -44,7 +44,7 @@ describe('Technology Screen', () => {
       },
     );
     const component = getByText(/Technology/);
-    expect(component).toBeTruthy();
+    expect(component).toBeDefined();
     expect(toJSON()).toMatchSnapshot();
   });
 });

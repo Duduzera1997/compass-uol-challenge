@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { ScienceScreen } from '~/views';
-import { renderWithStoreAndThemeProviders } from '~/utils/helperTest';
+import { renderWithStoreAndThemeProviders } from '~/utils';
 
 const mock = {
   section: 'Science',
@@ -43,7 +43,7 @@ describe('Science Screen', () => {
       },
     );
     const component = getByText(/Science/);
-    expect(component).toBeTruthy();
+    expect(component).toBeDefined();
     expect(toJSON()).toMatchSnapshot();
   });
 });
