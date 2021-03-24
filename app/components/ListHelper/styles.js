@@ -1,15 +1,14 @@
 import styled from 'styled-components/native';
 import { white } from '~/styles/colors';
 
-export const ContainerEmptyList = styled.View`
-  flex: 1;
-  margin-top: 50%;
+export const ContainerListHelper = styled.View`
+  margin-top: 5%;
   justify-content: center;
   align-items: center;
 `;
 
 export const Label = styled.Text`
-  font-size: 22px;
+  font-size: 15px;
   font-family: ${({ theme }) => theme.fonts.primary.family}Regular;
   color: ${({ theme }) => theme.colors.secondary.white};
   text-align: center;

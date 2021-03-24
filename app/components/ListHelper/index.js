@@ -2,25 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as SC from './styles';
 
-function EmptyList({ isLoading }) {
+function ListHelper({ isLoading }) {
   return (
-    <SC.ContainerEmptyList>
+    <SC.ContainerListHelper>
       {isLoading && <SC.ActivityIndicator />}
       <SC.Label>
         {isLoading
           ? 'Buscando...'
           : 'Ooops! 😞\n Nada foi encontrado, tente novamente...'}
       </SC.Label>
-    </SC.ContainerEmptyList>
+    </SC.ContainerListHelper>
   );
 }
 
-EmptyList.defaultProps = {
+ListHelper.defaultProps = {
   isLoading: false,
 };
 
-EmptyList.propTypes = {
+ListHelper.propTypes = {
   isLoading: PropTypes.bool,
 };
 
-export default EmptyList;
+export default ListHelper;

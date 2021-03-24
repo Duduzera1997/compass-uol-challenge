@@ -1,49 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`EmptyList Component should be contains a  Nada foi encontrado Text into component 1`] = `
+exports[`ListHelper Component should be contains a  "Buscando..." Text into component 1`] = `
 <View
   style={
     Array [
       Object {
         "alignItems": "center",
-        "flexBasis": 0,
-        "flexGrow": 1,
-        "flexShrink": 1,
         "justifyContent": "center",
-        "marginTop": "50%",
-      },
-    ]
-  }
->
-  <Text
-    style={
-      Array [
-        Object {
-          "color": "#FFFFFF",
-          "fontFamily": "PTSansNarrowRegular",
-          "fontSize": 22,
-          "textAlign": "center",
-        },
-      ]
-    }
-  >
-    Ooops! 😞
- Nada foi encontrado, tente novamente...
-  </Text>
-</View>
-`;
-
-exports[`EmptyList Component should be contains a Buscando Text into component 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignItems": "center",
-        "flexBasis": 0,
-        "flexGrow": 1,
-        "flexShrink": 1,
-        "justifyContent": "center",
-        "marginTop": "50%",
+        "marginTop": "5%",
       },
     ]
   }
@@ -65,13 +29,43 @@ exports[`EmptyList Component should be contains a Buscando Text into component 1
         Object {
           "color": "#FFFFFF",
           "fontFamily": "PTSansNarrowRegular",
-          "fontSize": 22,
+          "fontSize": 15,
           "textAlign": "center",
         },
       ]
     }
   >
     Buscando...
+  </Text>
+</View>
+`;
+
+exports[`ListHelper Component should be contains a  "Nada foi encontrado" Text into component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginTop": "5%",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "PTSansNarrowRegular",
+          "fontSize": 15,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Ooops! 😞
+ Nada foi encontrado, tente novamente...
   </Text>
 </View>
 `;
