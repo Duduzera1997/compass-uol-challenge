@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Articles Container should be call a onSeachInputTextChange prop function 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4282066552,
+      4294924895,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0,
+      "y": 1.05,
+    }
+  }
+  locations={null}
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    <Modal
+      animationType="fade"
+      hardwareAccelerated={false}
+      onRequestClose={[MockFunction]}
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+        ]
+      }
+      visible={false}
+    />
+    <View
+      flex={1}
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+        ]
+      }
+    >
+      <View
+        flex={1}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "PTSansNarrowBold",
+                  "fontSize": 27,
+                  "letterSpacing": 2,
+                  "paddingLeft": 15,
+                  "paddingTop": 15,
+                },
+              ]
+            }
+          >
+            Science
+             News
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "PTSansNarrowRegular",
+                  "fontSize": 14,
+                  "paddingLeft": 16,
+                  "paddingTop": 2,
+                },
+              ]
+            }
+          >
+            Hoje é, 
+            24 de março de 2021
+            .
+          </Text>
+        </View>
+      </View>
+      <View
+        flex={1}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={
+            [MockFunction] {
+              "calls": Array [
+                Array [
+                  "called",
+                ],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+              ],
+            }
+          }
+          placeholder="Busque uma notícia..."
+          rejectResponderTermination={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#FFFFFF",
+                "borderRadius": 9,
+                "borderWidth": 1,
+                "color": "#333333",
+                "fontFamily": "PTSansNarrowRegular",
+                "fontSize": 16,
+                "marginBottom": 0,
+                "marginLeft": 16,
+                "marginRight": 0,
+                "marginTop": 10,
+                "paddingBottom": 10,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+                "width": "92%",
+              },
+            ]
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        flex={6}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 6,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</BVLinearGradient>
+`;
