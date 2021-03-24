@@ -7,6 +7,7 @@ import EmptyList from './EmptyList';
 import ListArticles from './ListArticles';
 import ViewArticleModal from './ViewArticleModal';
 import Button from './Button';
+import SearchInput from './SearchInput';
 
 export {
   TabIcon,
@@ -18,4 +19,5 @@ export {
   ListArticles,
   ViewArticleModal,
   Button,
+  SearchInput,
 };

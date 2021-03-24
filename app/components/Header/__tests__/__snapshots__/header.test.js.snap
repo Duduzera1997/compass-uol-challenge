@@ -1,98 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header Label Component should be change text call the function 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignItems": "flex-start",
-        "flexBasis": 0,
-        "flexGrow": 1,
-        "flexShrink": 1,
-      },
-    ]
-  }
->
-  <Text
-    style={
-      Array [
-        Object {
-          "color": "#FFFFFF",
-          "fontFamily": "PTSansNarrowBold",
-          "fontSize": 27,
-          "letterSpacing": 2,
-          "paddingLeft": 15,
-          "paddingTop": 15,
-        },
-      ]
-    }
-  >
-    Technology
-     News
-  </Text>
-  <Text
-    style={
-      Array [
-        Object {
-          "color": "#FFFFFF",
-          "fontFamily": "PTSansNarrowRegular",
-          "fontSize": 14,
-          "paddingLeft": 16,
-          "paddingTop": 2,
-        },
-      ]
-    }
-  >
-    Hoje é, 
-    23 de março de 2021
-    .
-  </Text>
-  <TextInput
-    allowFontScaling={true}
-    onChangeText={
-      [MockFunction] {
-        "calls": Array [
-          Array [
-            "called",
-          ],
-        ],
-        "results": Array [
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-        ],
-      }
-    }
-    placeholder="Busque uma notícia..."
-    rejectResponderTermination={true}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#FFFFFF",
-          "borderRadius": 9,
-          "borderWidth": 1,
-          "color": "#333333",
-          "fontFamily": "PTSansNarrowRegular",
-          "fontSize": 16,
-          "marginBottom": 0,
-          "marginLeft": 16,
-          "marginRight": 0,
-          "marginTop": 10,
-          "paddingBottom": 10,
-          "paddingLeft": 10,
-          "paddingRight": 10,
-          "paddingTop": 10,
-          "width": "92%",
-        },
-      ]
-    }
-    underlineColorAndroid="transparent"
-  />
-</View>
-`;
-
 exports[`Header Label Component should be contains a Title with News Text 1`] = `
 <View
   style={
@@ -140,35 +47,6 @@ exports[`Header Label Component should be contains a Title with News Text 1`] = 
     23 de março de 2021
     .
   </Text>
-  <TextInput
-    allowFontScaling={true}
-    onChangeText={[MockFunction]}
-    placeholder="Busque uma notícia..."
-    rejectResponderTermination={true}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#FFFFFF",
-          "borderRadius": 9,
-          "borderWidth": 1,
-          "color": "#333333",
-          "fontFamily": "PTSansNarrowRegular",
-          "fontSize": 16,
-          "marginBottom": 0,
-          "marginLeft": 16,
-          "marginRight": 0,
-          "marginTop": 10,
-          "paddingBottom": 10,
-          "paddingLeft": 10,
-          "paddingRight": 10,
-          "paddingTop": 10,
-          "width": "92%",
-        },
-      ]
-    }
-    underlineColorAndroid="transparent"
-  />
 </View>
 `;
 
@@ -219,35 +97,6 @@ exports[`Header Label Component should be have a label color is white 1`] = `
     23 de março de 2021
     .
   </Text>
-  <TextInput
-    allowFontScaling={true}
-    onChangeText={[MockFunction]}
-    placeholder="Busque uma notícia..."
-    rejectResponderTermination={true}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#FFFFFF",
-          "borderRadius": 9,
-          "borderWidth": 1,
-          "color": "#333333",
-          "fontFamily": "PTSansNarrowRegular",
-          "fontSize": 16,
-          "marginBottom": 0,
-          "marginLeft": 16,
-          "marginRight": 0,
-          "marginTop": 10,
-          "paddingBottom": 10,
-          "paddingLeft": 10,
-          "paddingRight": 10,
-          "paddingTop": 10,
-          "width": "92%",
-        },
-      ]
-    }
-    underlineColorAndroid="transparent"
-  />
 </View>
 `;
 
@@ -298,35 +147,6 @@ exports[`Header Label Component should be have a label with date label send by p
     09 de maio de 1997
     .
   </Text>
-  <TextInput
-    allowFontScaling={true}
-    onChangeText={[MockFunction]}
-    placeholder="Busque uma notícia..."
-    rejectResponderTermination={true}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#FFFFFF",
-          "borderRadius": 9,
-          "borderWidth": 1,
-          "color": "#333333",
-          "fontFamily": "PTSansNarrowRegular",
-          "fontSize": 16,
-          "marginBottom": 0,
-          "marginLeft": 16,
-          "marginRight": 0,
-          "marginTop": 10,
-          "paddingBottom": 10,
-          "paddingLeft": 10,
-          "paddingRight": 10,
-          "paddingTop": 10,
-          "width": "92%",
-        },
-      ]
-    }
-    underlineColorAndroid="transparent"
-  />
 </View>
 `;
 
@@ -377,35 +197,6 @@ exports[`Header Label Component should be have a label with text send by props 1
     23 de março de 2021
     .
   </Text>
-  <TextInput
-    allowFontScaling={true}
-    onChangeText={[MockFunction]}
-    placeholder="Busque uma notícia..."
-    rejectResponderTermination={true}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#FFFFFF",
-          "borderRadius": 9,
-          "borderWidth": 1,
-          "color": "#333333",
-          "fontFamily": "PTSansNarrowRegular",
-          "fontSize": 16,
-          "marginBottom": 0,
-          "marginLeft": 16,
-          "marginRight": 0,
-          "marginTop": 10,
-          "paddingBottom": 10,
-          "paddingLeft": 10,
-          "paddingRight": 10,
-          "paddingTop": 10,
-          "width": "92%",
-        },
-      ]
-    }
-    underlineColorAndroid="transparent"
-  />
 </View>
 `;
 
@@ -456,35 +247,6 @@ exports[`Header Label Component should be have a label with today date label by 
     23 de março de 2021
     .
   </Text>
-  <TextInput
-    allowFontScaling={true}
-    onChangeText={[MockFunction]}
-    placeholder="Busque uma notícia..."
-    rejectResponderTermination={true}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#FFFFFF",
-          "borderRadius": 9,
-          "borderWidth": 1,
-          "color": "#333333",
-          "fontFamily": "PTSansNarrowRegular",
-          "fontSize": 16,
-          "marginBottom": 0,
-          "marginLeft": 16,
-          "marginRight": 0,
-          "marginTop": 10,
-          "paddingBottom": 10,
-          "paddingLeft": 10,
-          "paddingRight": 10,
-          "paddingTop": 10,
-          "width": "92%",
-        },
-      ]
-    }
-    underlineColorAndroid="transparent"
-  />
 </View>
 `;
 
@@ -535,34 +297,5 @@ exports[`Header Label Component should be must contain a date with white label c
     23 de março de 2021
     .
   </Text>
-  <TextInput
-    allowFontScaling={true}
-    onChangeText={[MockFunction]}
-    placeholder="Busque uma notícia..."
-    rejectResponderTermination={true}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#FFFFFF",
-          "borderRadius": 9,
-          "borderWidth": 1,
-          "color": "#333333",
-          "fontFamily": "PTSansNarrowRegular",
-          "fontSize": 16,
-          "marginBottom": 0,
-          "marginLeft": 16,
-          "marginRight": 0,
-          "marginTop": 10,
-          "paddingBottom": 10,
-          "paddingLeft": 10,
-          "paddingRight": 10,
-          "paddingTop": 10,
-          "width": "92%",
-        },
-      ]
-    }
-    underlineColorAndroid="transparent"
-  />
 </View>
 `;
