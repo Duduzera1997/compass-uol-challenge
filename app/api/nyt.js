@@ -9,19 +9,21 @@ const defaultOptions = {
 
 const nyt = axios.create(defaultOptions);
 
-nyt.interceptors.request.use((request) => {
+nyt.interceptors.request.use((config) => {
   const defaultParams = {
     'api-key': 'LEe8tARGkETprjQgI7Eeygqn6OSNc4e0',
   };
 
-  request.url = `${request.url}.json`;
-
-  request.params = {
-    ...request.params,
-    ...defaultParams,
+  const configuration = {
+    ...config,
+    url: `${config.url}.json`,
+    params: {
+      ...config.params,
+      ...defaultParams,
+    },
   };
 
-  return request;
+  return configuration;
 });
 
 export default nyt;
