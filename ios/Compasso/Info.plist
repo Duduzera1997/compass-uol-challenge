@@ -53,10 +53,6 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Roboto-Bold.ttf</string>
-		<string>Roboto-Italic.ttf</string>
-		<string>Roboto-Light.ttf</string>
-		<string>Roboto-Regular.ttf</string>
 		<string>AntDesign.ttf</string>
 		<string>Entypo.ttf</string>
 		<string>EvilIcons.ttf</string>
@@ -73,6 +69,10 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>PTSansNarrow-Bold.ttf</string>
+		<string>PTSansNarrow-Regular.ttf</string>
+		<string>PTSansNarrowBold.ttf</string>
+		<string>PTSansNarrowRegular.ttf</string>
 	</array>
 </dict>
 </plist>
