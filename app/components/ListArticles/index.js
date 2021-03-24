@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import * as SC from './styles';
 import Card from '../Card';
-import EmptyList from '../EmptyList';
+import ListHelper from '../ListHelper';
 import { ArrayOfArticlePropTypes, PAGE_LIMIT } from '~/utils';
 
 function ListArticles({ data, loading, onRefresh, onCardPress }) {
@@ -55,12 +55,12 @@ function ListArticles({ data, loading, onRefresh, onCardPress }) {
 
   function verifyEmptyList() {
     if (data.num_results > 0 || loading) return;
-    return <EmptyList />;
+    return <ListHelper />;
   }
 
   function verifyFooterList() {
     if (paginationHelper) return;
-    return <EmptyList isLoading />;
+    return <ListHelper isLoading />;
   }
 
   return (

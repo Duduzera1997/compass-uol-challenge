@@ -21,9 +21,9 @@ describe('Card Component', () => {
       />,
     );
     const formatedDate = formatDateLiteral(new Date(noticeDate));
-    expect(getByText(/Brazil wins covid-19/)).toBeTruthy();
-    expect(getByText(/12th country to win the virus/)).toBeTruthy();
-    expect(getByText(formatedDate)).toBeTruthy();
+    expect(getByText(/Brazil wins covid-19/)).toBeDefined();
+    expect(getByText(/12th country to win the virus/)).toBeDefined();
+    expect(getByText(formatedDate)).toBeDefined();
     expect(toJSON()).toMatchSnapshot();
   });
 });

@@ -7,7 +7,7 @@ describe('Linear Background', () => {
     const { getByTestId, toJSON } = render(
       <LinearBackground testID="component-linear-background" />,
     );
-    expect(getByTestId('component-linear-background')).toBeTruthy();
+    expect(getByTestId('component-linear-background')).toBeDefined();
     expect(toJSON()).toMatchSnapshot();
   });
 });

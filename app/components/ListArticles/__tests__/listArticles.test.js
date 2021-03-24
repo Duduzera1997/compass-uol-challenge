@@ -1,6 +1,6 @@
 import React from 'react';
 import { ListArticles } from '~/components';
-import { renderWithTheme } from '~/utils/helperTest';
+import { renderWithTheme, fireEvent } from '~/utils';
 
 const mock = {
   section: 'Science',
@@ -28,8 +28,8 @@ const mock = {
 };
 
 describe('List Articles Component', () => {
-  it('should be contains List Articles text', () => {
-    const { UNSAFE_getAllByType } = renderWithTheme(
+  it('should be contains List Articles in the screen', () => {
+    const { queryByTestId, toJSON } = renderWithTheme(
       <ListArticles
         data={mock}
         loading={false}
@@ -38,6 +38,7 @@ describe('List Articles Component', () => {
         onCardPress={jest.fn()}
       />,
     );
-    expect(UNSAFE_getAllByType(ListArticles).length).toBe(1);
+    expect(queryByTestId('component-flatlist')).toBeTruthy();
+    expect(toJSON()).toMatchSnapshot();
   });
 });

@@ -44,7 +44,7 @@ exports[`Header Label Component should be contains a Title with News Text 1`] = 
     }
   >
     Hoje é, 
-    23 de março de 2021
+    24 de março de 2021
     .
   </Text>
 </View>
@@ -94,7 +94,7 @@ exports[`Header Label Component should be have a label color is white 1`] = `
     }
   >
     Hoje é, 
-    23 de março de 2021
+    24 de março de 2021
     .
   </Text>
 </View>
@@ -194,7 +194,7 @@ exports[`Header Label Component should be have a label with text send by props 1
     }
   >
     Hoje é, 
-    23 de março de 2021
+    24 de março de 2021
     .
   </Text>
 </View>
@@ -244,7 +244,7 @@ exports[`Header Label Component should be have a label with today date label by 
     }
   >
     Hoje é, 
-    23 de março de 2021
+    24 de março de 2021
     .
   </Text>
 </View>
@@ -294,7 +294,7 @@ exports[`Header Label Component should be must contain a date with white label c
     }
   >
     Hoje é, 
-    23 de março de 2021
+    24 de março de 2021
     .
   </Text>
 </View>

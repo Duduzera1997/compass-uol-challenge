@@ -8,8 +8,8 @@ export const ContainerLoading = styled.View`
 `;
 
 export const Logo = styled.Image`
-  width: 210px;
-  height: 47px;
+  width: 244px;
+  height: 55px;
 `;
 
 export const ActivityIndicator = styled.ActivityIndicator.attrs({

@@ -3,7 +3,7 @@ import { format } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 
 import { Header } from '~/components';
-import { renderWithTheme, fireEvent } from '~/utils/helperTest';
+import { renderWithTheme } from '~/utils';
 import theme from '~/styles/theme';
 
 describe('Header Label Component', () => {
@@ -36,7 +36,7 @@ describe('Header Label Component', () => {
       <Header headerText={label} />,
     );
     const header = getByText(/Best Test/);
-    expect(header).toBeTruthy();
+    expect(header).toBeDefined();
     expect(toJSON()).toMatchSnapshot();
   });
 
@@ -49,7 +49,7 @@ describe('Header Label Component', () => {
         locale: ptBR,
       })}.`,
     );
-    expect(dateLabel).toBeTruthy();
+    expect(dateLabel).toBeDefined();
     expect(toJSON()).toMatchSnapshot();
   });
 
@@ -61,7 +61,7 @@ describe('Header Label Component', () => {
       <Header headerText="Technology" dateText={date} />,
     );
     const dateLabel = getByText(`Hoje é, ${date}.`);
-    expect(dateLabel).toBeTruthy();
+    expect(dateLabel).toBeDefined();
     expect(toJSON()).toMatchSnapshot();
   });
 

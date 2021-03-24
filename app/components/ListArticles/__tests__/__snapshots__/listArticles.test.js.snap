@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Articles Component should be contains List Articles in the screen 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "paddingBottom": 20,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+    }
+  }
+  data={
+    Array [
+      Object {
+        "abstract": "Millions of older Americans, chronically ill and trapped at home, pose a big challenge to inoculation efforts. Doctors are on it.",
+        "byline": "By Roni Caryn Rabin and Chang W. Lee",
+        "item_type": "Article",
+        "multimedia": Array [
+          Object {
+            "url": "https://static01.nyt.com/images/2021/03/22/science/00VIRUS-HOMEBOUND-promo/00VIRUS-HOMEBOUND-promo-articleInline.jpg",
+          },
+        ],
+        "published_date": "2021-03-22T17:08:27-04:00",
+        "title": "How to Vaccinate Homebound Seniors? Take the Shots to Them.",
+        "uri": "nyt://article/e31cffee-6e8f-54eb-95dc-3ab6337fdb18",
+        "url": "https://www.nytimes.com/2021/03/22/health/virus-seniors-vaccination.html",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReached={[Function]}
+  onEndReachedThreshold={0.15}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onRefresh={[MockFunction]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[MockFunction]}
+      refreshing={false}
+    />
+  }
+  refreshing={false}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsVerticalScrollIndicator={false}
+  stickyHeaderIndices={Array []}
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+  testID="component-flatlist"
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 120,
+              "paddingBottom": 10,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 9,
+              "flexDirection": "row",
+              "height": "100%",
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            flex={1}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "flex-start",
+                  "paddingBottom": 2,
+                  "paddingLeft": 7,
+                  "paddingRight": 5,
+                  "paddingTop": 5,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://static01.nyt.com/images/2021/03/22/science/00VIRUS-HOMEBOUND-promo/00VIRUS-HOMEBOUND-promo-articleInline.jpg",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "borderRadius": 10,
+                    "height": "95%",
+                    "width": "100%",
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            flex={2.5}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexBasis": 0,
+                  "flexGrow": 2.5,
+                  "flexShrink": 1,
+                  "justifyContent": "flex-start",
+                  "paddingBottom": 2,
+                  "paddingLeft": 7,
+                  "paddingRight": 5,
+                  "paddingTop": 5,
+                },
+              ]
+            }
+          >
+            <Text
+              fontBold={true}
+              numberOfLines={2}
+              size={15}
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "PTSansNarrowBold",
+                    "fontSize": 15,
+                    "paddingBottom": 2,
+                    "paddingLeft": 4,
+                    "paddingRight": 2,
+                    "paddingTop": 4,
+                    "width": "99%",
+                  },
+                ]
+              }
+            >
+              How to Vaccinate Homebound Seniors? Take the Shots to Them.
+            </Text>
+            <Text
+              fontBold={true}
+              numberOfLines={2}
+              size={11.5}
+              style={
+                Array [
+                  Object {
+                    "color": "#767676",
+                    "fontFamily": "PTSansNarrowBold",
+                    "fontSize": 11.5,
+                    "paddingBottom": 2,
+                    "paddingLeft": 4,
+                    "paddingRight": 2,
+                    "paddingTop": 0,
+                    "width": "99%",
+                  },
+                ]
+              }
+            >
+              22 de março de 2021
+            </Text>
+            <Text
+              numberOfLines={2}
+              size={13}
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "PTSansNarrowRegular",
+                    "fontSize": 13,
+                    "paddingBottom": 2,
+                    "paddingLeft": 4,
+                    "paddingRight": 2,
+                    "paddingTop": 4,
+                    "width": "99%",
+                  },
+                ]
+              }
+            >
+              Millions of older Americans, chronically ill and trapped at home, pose a big challenge to inoculation efforts. Doctors are on it.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

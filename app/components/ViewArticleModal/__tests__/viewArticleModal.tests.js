@@ -32,7 +32,7 @@ describe('View Article Component', () => {
         onRequestClose={jest.fn()}
       />,
     );
-    expect(getByText(mock.title)).toBeTruthy();
+    expect(getByText(mock.title)).toBeDefined();
     expect(toJSON()).toMatchSnapshot();
   });
 
@@ -45,7 +45,7 @@ describe('View Article Component', () => {
         onRequestClose={onRequestClose}
       />,
     );
-    expect(getByText(mock.abstract)).toBeTruthy();
+    expect(getByText(mock.abstract)).toBeDefined();
     expect(toJSON()).toMatchSnapshot();
   });
 
@@ -61,7 +61,7 @@ describe('View Article Component', () => {
     const date = `${format(publishedDate, "dd 'de' MMMM 'de' yyyy", {
       locale: ptBR,
     })} | ${formatDistanceToNow(publishedDate, { locale: ptBR })} atrás`;
-    expect(getByText(date)).toBeTruthy();
+    expect(getByText(date)).toBeDefined();
     expect(toJSON()).toMatchSnapshot();
   });
 
